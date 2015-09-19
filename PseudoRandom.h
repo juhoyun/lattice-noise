@@ -29,7 +29,7 @@ namespace GenericLatticeNoiseAlgorithm
 
 		float HashF(int i, int j, int index) //Returns a float -1 to 1. Not necessarily well weighted all over range
 		{
-			return (float)Hash(i, j, index) / 2147483648;
+			return (float)Hash(i, j, index) / 2147483648u;
 		}
 
 		int Rotate(int x, int b)
